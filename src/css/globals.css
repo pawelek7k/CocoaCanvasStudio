@@ -1,0 +1,17 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--background-color);
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
