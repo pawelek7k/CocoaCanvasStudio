@@ -1,0 +1,22 @@
+.our-products-heading {
+    color: var(--black);
+    text-align: center;
+    font-family: inherit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+}
+
+.our-products-products {
+    color: var(--orange);
+    font-family: inherit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+}
