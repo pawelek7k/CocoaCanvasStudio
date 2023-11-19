@@ -2,11 +2,11 @@
     background: linear-gradient(180deg, rgba(17, 17, 17, 0.00) 0%, rgba(17, 17, 17, 0.40) 100%), url(../images/hero/chocolate-background1.jpg), lightgray -435.077px -7.879px / 282.839% 101.752%;
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 1136px;
+    max-width: calc(100vw - 40px);
     margin-top: 0;
-    margin-right: 20px;
+    margin-right: auto;
     margin-bottom: 70px;
-    margin-left: 20px;
+    margin-left: auto;
     border-radius: 45px;
     padding-top: 395px;
     background-position: 80% 50%;
@@ -184,10 +184,11 @@
 
 @media screen and (min-width: 768px) {
 .hero-background {
+    max-width: calc(100vw - 64px);
     margin-top: 0;
-    margin-right: 32px;
+    margin-right: auto;
     margin-bottom: 50px;
-    margin-left: 32px;
+    margin-left: auto;
 }
 
 .hero-text {
@@ -219,10 +220,7 @@
 
 @media screen and (min-width: 1200px) {
 .hero-background {
-    margin-top: 0;
-    margin-right: auto;
     margin-bottom: 82px;
-    margin-left: auto;
 }
 }
 
