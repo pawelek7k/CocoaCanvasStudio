@@ -12,6 +12,7 @@ img {
 @media (min-width: 375px) {
 
     .our-products-container {
+        margin: 0 auto;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -138,7 +139,7 @@ img {
         justify-content: center;
         align-items: center;
         gap: 18px;
-        width: 1136px;
+        margin: 0 auto;
 
     }
 
@@ -151,11 +152,11 @@ img {
 @media (min-width: 1200px) {
 
     .our-products-container {
-        width: 1136px;
+
         height: 442px;
         flex-direction: column;
         align-items: center;
-        margin: auto;
+        margin: 0 auto;
 
     }
 
