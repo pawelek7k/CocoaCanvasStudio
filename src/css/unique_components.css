@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@media (min-width: 375px) and (max-width: 767px) {
+    
+    .section-unique-components {
+        padding-top: 72px;
+        padding-bottom: 72px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .unique-components-header-paragraph {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+    .unique-components-headline {
+        color: var(--black);
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.6px;;
+        text-transform: uppercase;
+        width: 283px;
+    }
+    .unique-components-headline > .unique-components-span {
+        color: var(--orange);
+    }
+    .unique-component-chocolate-secret {
+        color: var(--black);
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.28px;
+    }
+    .unique-components-ingridients {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .flip-card {
+        background-color: var(--orange);
+        border-radius: 15px;
+        width: 335px;
+        height: 270px;
+        perspective: 1000px; 
+      }
+      .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+      }
+      .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+      }
+      .flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden; 
+        backface-visibility: hidden;
+      }
+      .flip-card-front {
+        background-color: var(--orange);
+        border-radius: 15px;
+        text-align: center;
+        justify-content: center;
+      }
+      .flip-card-back {
+        background-color: var(--white);
+        border-radius: 15px;
+        color: var(--black);
+        transform: rotateY(180deg);
+      }
+      .first-component-name-div {
+        padding: 28px;
+      }
+      .first-component-name {
+        color: var(--black);
+        font-size: 18px;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.54px;
+        text-transform: uppercase;
+        text-align: left;
+      }
+      .flip-card-back {
+        padding: 20px;
+      }
+      .components-ingridients-story {
+        color: var(--black);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.28px;
+        text-align: left;
+      }
+    
+}
