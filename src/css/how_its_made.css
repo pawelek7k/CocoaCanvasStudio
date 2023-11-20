@@ -1,5 +1,30 @@
-@media screen and (min-width: 378px) {
-    .how-ist-made-headinig {
+:root {
+    --black: #111;
+    --grey: #1e1823;
+    --orange: #fd9222;
+    --white: white;
+    --tiny-p: rgba(17, 17, 17, 0.7);
+    --background-color: #fafafa;
+    --font: 'Montserrat', sans-serif;
+}
+
+
+
+@media screen and (min-width: 378px) and (max-width: 1140px) {
+    body {
+        background-color: #FAFAFA ;
+    }
+
+    .container {
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .how-its-made-container {
+        display: block;
+    }
+
+    .how-its-made-heading {
         color: var(--black);
         text-align: center;
         font-family: Montserrat;
@@ -9,19 +34,174 @@
         line-height: 1.2;
         letter-spacing: -0.6px;
         text-transform: uppercase;
+        margin-bottom: 32px;
     }
     
     .how-its-made-heading-orange {
         color: var(--orange);
     }
 
-    .flex-containner {
+    .flex-container {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .how-its-made-img {
-        border-radius: ;
+        max-width: 100%;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 15px;
+        margin-bottom: 20px;
+    }
+
+    .background-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        background: white;
+        border-radius: 15px;
+    }
+    .background-container {
+        padding: 20px 14px;
+    }
+    .try-our-chocolates {
+        color: var(--black);
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.33;
+        max-width: 307px;
+    }
+    
+    .how-its-made-list {
+        padding-left: 14px;
+    }
+
+    .how-its-made-list-item {
+        color: var(--black);
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.28;
+        letter-spacing: -0.28px;
+        margin-bottom: 18px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .container {
+        margin: 0 auto;
+        padding: 0 77px;
+    }
+
+    .how-its-made-container {
+        display: block;
+    }
+    
+    .flex-container {
+        display: flex;
+    }
+
+    .image-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .background-div {
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .background-container {
+        padding: 32px;
+    }
+
+    .how-its-made-img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .how-its-made-list-item {
+        max-width: 464px;
+        
+    }
+}
+@media screen and (min-width: 1220px) {
+    body {
+        background-color: #FAFAFA ;
+    }
+
+    .container {
+        padding: 0 32px;
+        margin: 0 auto;
+    }
+
+    .flex-container {
+        display: flex;
+    }
+
+    .how-its-made-heading {
+        color: var(--black);
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.2;
+        letter-spacing: -0.6px;
+        text-transform: uppercase;
+        margin-bottom: 32px;
+    }
+    
+    .how-its-made-heading-orange {
+        color: var(--orange);
+    }
+
+    .how-its-made-img {
+        min-width: 600px;
+        border-radius: 15px;
+        margin-bottom: 20px;
+    }
+
+    .background-div {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        background: white;
+        border-radius: 15px;
+        margin-left: 20px;
+    }
+
+    .try-our-chocolates {
+        color: var(--black);
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.33;
+        max-width: 307px;
+    }
+    
+    .how-its-made-list {
+        padding-left: 14px;
+    }
+
+    .how-its-made-list-item {
+        color: var(--black);
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.28;
+        letter-spacing: -0.28px;
+        margin-bottom: 18px;
     }
 }
 
