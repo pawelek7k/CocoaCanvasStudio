@@ -5,7 +5,7 @@
     <div class="subscribe-modal-hero">
     </div>
 
-    <div class="subscribe-modal-section">
+    <div class="subscribe-modal-button">
         <button type="button" class="subscribe-modal-close">
             <svg class="subscribe-modal-close-x" width="24" height="24">
                 <use href="./images/icons.svg#icon-close"></use>

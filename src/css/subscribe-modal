@@ -1,9 +1,12 @@
 @media (min-width: 375px) {
 
-    .subscribe-modal-section {}
-
-    .subscribe-modal-hero {}
-
+    .subscribe-modal-section {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        border-radius: 15px;
+        background: #FAFAFA;
+    }
 
     .subscribe-modal-paragraph {
         width: 263px;
@@ -63,5 +66,7 @@
         font-style: normal;
         font-weight: 600;
         line-height: normal;
+        position: absolute;
+        right: 0px;
     }
 }
