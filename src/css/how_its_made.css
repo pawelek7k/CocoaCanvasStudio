@@ -1,0 +1,27 @@
+@media screen and (min-width: 378px) {
+    .how-ist-made-headinig {
+        color: var(--black);
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.2;
+        letter-spacing: -0.6px;
+        text-transform: uppercase;
+    }
+    
+    .how-its-made-heading-orange {
+        color: var(--orange);
+    }
+
+    .flex-containner {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .how-its-made-img {
+        border-radius: ;
+    }
+}
+
