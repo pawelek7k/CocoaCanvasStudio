@@ -34,21 +34,14 @@
     border: none;
   }
 
-  .header {
-    display: flex;
-    justify-content: center;
-  }
-
   .header-container {
-    width: 335px;
-    padding-top: 24px;
-    padding-bottom: 32px;
+    margin: 20px 20px 14px 20px;
   }
 
   .header_nav {
-    width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   .header-logo .logospan {
@@ -139,8 +132,9 @@
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .header-container {
-    width: 704px;
+    /* width: 704px; */
     /* display: flex; */
+    margin: 24px 32px;
   }
   button svg {
     height: 32px;
@@ -159,8 +153,14 @@
 }
 
 @media (min-width: 1200px) {
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+
   .header-container {
     width: 1136px;
+    margin: 24px 32px;
     display: flex;
     justify-content: space-between;
     align-items: center;
