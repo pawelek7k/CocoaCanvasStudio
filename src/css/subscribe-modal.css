@@ -45,7 +45,7 @@
     }
 
     .subscribe-modal-paragraph {
-        width: 263px;
+        padding: 32px 24px 24px;
     }
 
     .subscribe-modal-text-one {
@@ -75,6 +75,14 @@
         background-color: #FAFAFA;
     }
 
+    .subscribe-modal-label {
+        display: flex;
+        width: 263px;
+        padding: 14px 18px;
+        align-items: flex-start;
+        gap: 40px;
+    }
+
     .subscribe-modal-input {
         display: flex;
         width: 263px;
@@ -90,8 +98,12 @@
 
 
     .subscribe-modal-submit {
+        position: absolute;
+        right: 0;
+
         display: flex;
         width: 100px;
+
         padding: 14px 28px;
         justify-content: center;
         align-items: center;
@@ -128,42 +140,14 @@
         height: 196px;
     }
 
-    .subscribe-modal-blocks {
-        width: 458px;
-        height: 136;
-        display: inline-flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 28px;
+
+    .subscribe-modal-paragraph {
         padding: 40px;
     }
 
-    .subscribe-modal-paragraph {
-        width: 298px;
-    }
+    .subscribe-modal-label {}
 
-    .subscribe-modal-label {
-        display: flex;
-        width: 458px;
-        align-items: flex-start;
-        gap: 14px;
-    }
+    .subscribe-modal-input {}
 
-    .subscribe-modal-input {
-        display: flex;
-        width: 313px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 14px;
-    }
-
-    .subscribe-modal-submit {
-        display: flex;
-        width: 137px;
-        height: 52px;
-        padding: 17px 40px;
-        justify-content: center;
-        align-items: center;
-        gap: 14px;
-    }
+    .subscribe-modal-submit {}
 }
