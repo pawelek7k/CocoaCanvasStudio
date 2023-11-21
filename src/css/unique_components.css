@@ -212,11 +212,9 @@
       width: 486px;
   }
   .unique-component-list {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      column-gap: 32px;
-      row-gap: 72px;
+      display: inline-flex;
+      flex-direction: row;
+      justify-content: space-between;
     }
   .component {
     position: absolute;
@@ -379,8 +377,8 @@
         width: 486px;
     }
     .unique-component-list {
-      display: inline-block;
-      }
+      flex-direction: row;
+    }
     .component {
       position: absolute;
       top: 28px;
