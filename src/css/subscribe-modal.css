@@ -39,10 +39,14 @@
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
+    .subscribe-modal-close-x:hover,
+    .subscribe-modal-close-x:focus {
+        stroke: var(--orange)
+    }
+
     .subscribe-modal-paragraph {
         width: 263px;
     }
-
 
     .subscribe-modal-text-one {
         color: var(--black);
@@ -66,6 +70,11 @@
         text-transform: uppercase;
     }
 
+    .subscribe-modal-blocks {
+        gap: 24px;
+        background-color: #FAFAFA;
+    }
+
     .subscribe-modal-input {
         display: flex;
         width: 263px;
@@ -76,7 +85,9 @@
         border-radius: 25px;
         border: 1.5px solid rgba(17, 17, 17, 0.05);
         box-shadow: 0px 5.44492px 5.44492px 0px rgba(0, 0, 0, 0.03);
+
     }
+
 
     .subscribe-modal-submit {
         display: flex;
@@ -98,7 +109,8 @@
         transition: background-color .25s cubic-bezier(.4, 0, .2, 1), color .25s cubic-bezier(.4, 0, .2, 1);
     }
 
-    .subscribe-modal-submit:hover {
+    .subscribe-modal-submit:hover,
+    .subscribe-modal-submit:focus {
         color: var(--orange);
         background-color: var(--bright-orange);
     }
