@@ -22,11 +22,11 @@
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .container {
     min-width: 375px;
-    margin: 0 auto;
-    padding: 20px;
   }
 
   .advantages-container {
+    margin: 0 auto;
+    padding: 20px;
     background-color: var(--grey);
     color: var(--white);
     flex-shrink: 0;
@@ -77,11 +77,11 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .container {
     min-width: 768px;
-    margin: 0 auto;
-    padding: 50px 32px;
   }
 
   .advantages-container {
+    margin: 0 auto;
+    padding: 50px 32px;
     background-color: var(--grey);
     color: var(--white);
   }
@@ -134,40 +134,49 @@
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
-    margin: 0 auto;
-    padding: 50px;
   }
 
   .advantages-container {
+    margin: 0 auto;
+    padding: 50px;
     background-color: var(--grey);
     color: var(--white);
   }
 
-  .advantages-list {
+  .advantages-container .advantages-list {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 70px;
   }
 
-  .advantages-list li {
-    display: relative;
-    margin-right: 18px;
+  .advantages-container li {
+    position: relative;
+    padding-right: 18px;
+    padding-left: 70px;
   }
 
-  .advantages-list li::after {
+  .advantages-container li:first-child {
+    padding-left: 0;
+  }
+
+  .advantages-container li:not(:first-child)::before,
+  .advantages-container li:not(:last-child)::after {
     position: absolute;
     content: '';
-    display: inline-block;
-    align-items: center;
+    top: 33%;
     width: 1px;
-    top: 112px;
-    height: 124px;
+    height: 50%;
+    display: flex;
     background-color: rgba(255, 255, 255, 0.50);
+    transform: translate(-50%, -50%);
   }
 
-  .advantages-list li:last-child::after {
-    display: none;
+  .advantages-container li:not(:first-child)::before {
+    left: 0;
+    transform: translateX(-50%);
+  }
+
+  .advantages-container li:not(:last-child)::after {
+    right: 0;
+    transform: translateX(50%);
   }
 
   .advantages-icon-container {
