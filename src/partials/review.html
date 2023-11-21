@@ -1,0 +1,44 @@
+<div class="review is-hidden" data-modal>
+    <div class="review-window">
+        <div>
+            <button data-modal-close class="review-button-close" type="button">
+                <svg width="8" height="8" class="review-close">
+                <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+        </div>
+     <h2 class="review-title">leave a review about <span class="review-title-orange"><br/>our chocolate</span></h2>
+     <form class="form">
+        <div class="review-form">
+            <div class="review-personal">
+                <input type="text" name="review-user-name" placeholder="Name" id="review-user-name" class="review-input" required/>
+            </div>
+        </div>
+        <div class="review-form">
+            <div class="review-form-inside">
+                <input type="email" name="user-mail" placeholder="Enter your email" id="user-mail" class="review-input" required/>
+            </div>
+        </div>
+        <div class="review-form">
+            <div class="review-input review-phone">
+                <div class="review-phone-number">
+                    <svg width="32" height="24" class="review-icon-flag">
+                        <use href="./images/icons.svg#icon-flag"></use>
+                    </svg>
+                    <p class="review-area-number">+ 380</p>
+                </div>
+                <div>
+                    <input type="text" name="review-user-phone" placeholder="Phone number" id="review-user-phone" required/>
+                </div>
+            </div>
+        </div>
+        <div class="review-comment">
+                <textarea name="user-comment" rows="5" placeholder="Text input" id="user-comment" class="review-textarea"></textarea>
+        </div>
+
+        <button type="submit" class="review-button-submit" data-modal-open>Submit</button>
+     </form>
+    </div>
+</div>
+
+<script src="./review.js"></script>
