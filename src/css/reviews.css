@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.review_card2,
+.review_card3 {
+  display: none;
+}
+
+.review_card:nth-child(n + 2) {
+  display: none;
+}
+
+.review_card {
+  display: block;
+  width: 344px;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 375px) {
+  .revievs_container {
+    /* border: 1px solid red; */
+    display: flex;
+    width: 335px;
+    /* height: 404px; */
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    flex-shrink: 0;
+  }
+
+  .reviews_cards {
+    display: flex;
+    gap: 16px;
+  }
+
+  .review_rectangle {
+    position: relative;
+
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    background: #fff;
+    box-shadow: 0px 9.04932px 26.57166px 0px rgba(215, 228, 249, 0.25);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-top: 56px; */
+    padding-left: 18px;
+    padding-right: 18px;
+    /* padding-bottom: 42px; */
+    padding-top: 104px;
+    height: 200px;
+    z-index: -1;
+  }
+
+  .review_image {
+    position: absolute;
+    top: -40;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+  }
+
+  .revievs_h3 {
+    color: var(--black);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  .revievs_h2 {
+    color: var(--orange);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+
+    margin-bottom: 32px;
+  }
+  .span_revievs_header {
+    color: var(--black);
+  }
+
+  .review_p {
+    color: rgba(17, 17, 17, 0.7);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.28px;
+  }
+
+  .reviews_offer-banner {
+    display: flex;
+    gap: 13px;
+  }
+
+  .review_button {
+    padding: 12px 28px;
+    border-radius: 100px;
+    border: 1px solid var(--orange);
+    color: var(--black);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background-color: transparent;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .review_button:hover {
+    background-color: var(--orange);
+    color: var(--white);
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .review_card:nth-child(-n + 2) {
+    display: block;
+  }
+
+  .revievs_container {
+    width: 704px;
+  }
+
+  .revievs_h2 {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.72px;
+  }
+
+  .review_button {
+    padding: 14px 40px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .revievs_container {
+    width: 1136px;
+  }
+  .review_card:nth-child(-n + 3) {
+    display: block;
+  }
+
+  .reviews_cards {
+    gap: 28px;
+  }
+  .revievs_h2 {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.72px;
+  }
+  .review_button {
+    padding: 14px 40px;
+    font-size: 18px;
+  }
+}
