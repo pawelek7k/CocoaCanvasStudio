@@ -9,6 +9,10 @@ img {
     height: auto;
 }
 
+.our-products-card-hidden {
+    display: none;
+}
+
 @media (min-width: 375px) {
 
     .our-products-container {
