@@ -22,11 +22,11 @@
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .container {
     min-width: 375px;
-    margin: 0 auto;
-    padding: 20px;
   }
 
   .advantages-container {
+    margin: 0 auto;
+    padding: 20px;
     background-color: var(--grey);
     color: var(--white);
     flex-shrink: 0;
@@ -77,11 +77,11 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .container {
     min-width: 768px;
-    margin: 0 auto;
-    padding: 50px 32px;
   }
 
   .advantages-container {
+    margin: 0 auto;
+    padding: 50px 32px;
     background-color: var(--grey);
     color: var(--white);
   }
@@ -134,11 +134,11 @@
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
-    margin: 0 auto;
-    padding: 50px;
   }
 
   .advantages-container {
+    margin: 0 auto;
+    padding: 50px;
     background-color: var(--grey);
     color: var(--white);
   }
