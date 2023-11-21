@@ -1,22 +1,31 @@
 /****** MODAL ******/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 @media (min-width: 375px) {
 
     .subscribe-modal-container {
         width: 311px;
         height: 169px;
+
+        border-radius: 15px;
+        background: #FAFAFA;
     }
 
     .subscribe-modal-hero {
         background: url(../images/subscribe_pop-up/subscribe-chocolate-1x.jpg), lightgray 0px -81.483px / 172.99% 212.406%;
         background-repeat: no-repeat;
+        background-size: cover;
         width: 311px;
         height: 169px;
     }
 
     .subscribe-modal-paragraph {
         width: 263px;
-        padding: 32px 24px 24px;
+
     }
 
 
@@ -82,9 +91,28 @@
         height: 412px;
     }
 
+    .subscribe-modal-hero {
+        width: 538px;
+        height: 196px;
+    }
+
+    .subscribe-modal-blocks {
+        width: 458px;
+        height: 136;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 28px;
+        padding: 40px;
+    }
+
+    .subscribe-modal-paragraph {
+        width: 298px;
+    }
+
     .subscribe-modal-label {
         display: flex;
-        width: 313px;
+        width: 458px;
         align-items: flex-start;
         gap: 14px;
     }
