@@ -1,4 +1,7 @@
- 
+    .top_sellers-container {
+        margin: 0 auto;
+    }
+    
   @media (min-width: 375px) {
     .top_sellers-container{
         max-width: 335px;
