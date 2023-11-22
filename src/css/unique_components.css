@@ -49,6 +49,7 @@
     .unique-components-ingridients {
         display: flex;
         align-items: flex-start;
+        justify-content: center;
         gap: 32px;
         padding-left: 32px;
         padding-right: 32px;
