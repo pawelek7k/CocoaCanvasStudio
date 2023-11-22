@@ -223,7 +223,6 @@
         position: relative;
         display: flex;
         align-items: flex-start;
-        padding-bottom: 20px;
         flex-basis: calc((100% - 16px) / 3);
         flex-direction: row;
         gap: 16px;
