@@ -29,7 +29,6 @@
     padding: 20px;
     background-color: var(--grey);
     color: var(--white);
-    flex-shrink: 0;
     margin-bottom: 128px;
   }
 
