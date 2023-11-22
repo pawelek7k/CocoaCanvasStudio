@@ -2,6 +2,25 @@
   list-style-type: disc;
 }
 
+.image-div-him {
+  position: relative;
+}
+
+.how-its-made-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.center-svg {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* @media screen and (min-width: 378px) and (max-width: 1140px) {
   
     .how-its-made-container {
