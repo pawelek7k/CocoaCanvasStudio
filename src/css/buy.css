@@ -1,4 +1,4 @@
-.buy-is-hidden {
+.is-hidden {
     pointer-events: none;
     visibility: hidden;
     opacity: 0;
