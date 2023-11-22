@@ -1,18 +1,14 @@
 
-@media screen and (min-width: 378px) and (max-width: 1140px) {
-    body {
-        background-color: #FAFAFA ;
-    }
-
-    .container {
-        margin: 0 auto;
-        padding: 0 20px;
-    }
-
+.how-its-made-list-item {
+    list-style-type: disc;
+  }
+  
+  @media screen and (min-width: 378px) and (max-width: 1140px) {
+  
     .how-its-made-container {
         display: block;
     }
-
+  
     .how-its-made-heading {
         color: var(--black);
         text-align: center;
@@ -29,13 +25,13 @@
     .how-its-made-heading-orange {
         color: var(--orange);
     }
-
+  
     .flex-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-
+  
     .how-its-made-img {
         max-width: 100%;
         height: 500px;
@@ -43,7 +39,7 @@
         border-radius: 15px;
         margin-bottom: 20px;
     }
-
+  
     .background-div {
         display: flex;
         justify-content: center;
@@ -69,7 +65,7 @@
     .how-its-made-list {
         padding-left: 14px;
     }
-
+  
     .how-its-made-list-item {
         color: var(--black);
         font-family: var(--font);
@@ -80,13 +76,9 @@
         letter-spacing: -0.28px;
         margin-bottom: 18px;
     }
-}
-@media screen and (min-width: 768px) {
-    .container {
-        margin: 0 auto;
-        padding: 0 77px;
-    }
-
+  }
+  @media screen and (min-width: 768px) {
+  
     .how-its-made-container {
         display: block;
     }
@@ -94,47 +86,39 @@
     .flex-container {
         display: flex;
     }
-
+  
     .image-div {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-
+  
     .background-div {
         display: block;
         max-width: 100%;
         margin: 0 auto;
     }
-
+  
     .background-container {
         padding: 32px;
     }
-
+  
     .how-its-made-img {
         width: 100%;
         height: 400px;
     }
-
+  
     .how-its-made-list-item {
         max-width: 464px;
         
     }
-}
-@media screen and (min-width: 1220px) {
-    body {
-        background-color: #FAFAFA ;
-    }
-
-    .container {
-        padding: 0 32px;
-        margin: 0 auto;
-    }
-
+  }
+  @media screen and (min-width: 1220px) {
+  
     .flex-container {
         display: flex;
     }
-
+  
     .how-its-made-heading {
         color: var(--black);
         text-align: center;
@@ -151,13 +135,13 @@
     .how-its-made-heading-orange {
         color: var(--orange);
     }
-
+  
     .how-its-made-img {
         min-width: 600px;
         border-radius: 15px;
         margin-bottom: 20px;
     }
-
+  
     .background-div {
         display: flex;
         justify-content: center;
@@ -167,7 +151,7 @@
         border-radius: 15px;
         margin-left: 20px;
     }
-
+  
     .try-our-chocolates {
         color: var(--black);
         font-family: var(--font);
@@ -181,7 +165,7 @@
     .how-its-made-list {
         padding-left: 14px;
     }
-
+  
     .how-its-made-list-item {
         color: var(--black);
         font-family: var(--font);
@@ -192,5 +176,6 @@
         letter-spacing: -0.28px;
         margin-bottom: 18px;
     }
-}
-
+  }
+  
+  
