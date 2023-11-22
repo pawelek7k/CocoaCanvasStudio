@@ -41,7 +41,7 @@
     }
 
     .unique-component-list {
-
+      display: flex;
     }
     .unique-components-ingridients {
         display: flex;
@@ -51,9 +51,7 @@
         padding-right: 32px;
     }
     .component {
-      position: absolute;
-      top: 28px;
-      left: 55px;
+      margin: 28px auto;
     }
     .first-component-name {
       color: var(--white);
@@ -211,15 +209,13 @@
       padding-bottom: 32px;
       width: 486px;
   }
-  .unique-component-list {
-      display: inline-flex;
-      flex-direction: row;
+  .unique-components-list {
+      display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
     }
   .component {
-    position: absolute;
-    top: 28px;
-    left: 55px;
+    margin: 28px auto;
   }
   .first-component-name {
     color: var(--white);
@@ -319,6 +315,7 @@
     }
     .unique-component {
       padding-top: 20px;
+      flex-basis: 50%;
     }
     .component-ingridients-first {
       display: inline-block;
@@ -376,13 +373,14 @@
         padding-bottom: 32px;
         width: 486px;
     }
-    .unique-component-list {
-      flex-direction: row;
+    .unique-components-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
     }
+
     .component {
-      position: absolute;
-      top: 28px;
-      left: 55px;
+      margin: 28px auto;
     }
     .first-component-name {
       color: var(--white);
@@ -409,7 +407,7 @@
     .flip-card {
         background-color: var(--orange);
         border-radius: 15px;
-        width: 335px;
+        width: 270px;
         height: 270px;
         perspective: 1000px; 
       }
