@@ -135,10 +135,12 @@
 
     .subscribe-modal-submit {
         position: absolute;
-        right: 0;
+        right: 24px;
+        bottom: 40px;
 
         display: flex;
         width: 100px;
+        height: 47px;
 
         padding: 14px 28px;
         justify-content: center;
@@ -214,5 +216,8 @@
         border-radius: 100px;
         background: var(--orange);
         margin-right: 40px;
+        position: absolute;
+        right: 0px;
+        bottom: 40px;
     }
 }
