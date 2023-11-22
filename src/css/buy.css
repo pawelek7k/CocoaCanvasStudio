@@ -16,11 +16,8 @@
 }
 
 .buy-window {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0.9);
-    width: 55%;
+    width: calc(100% - 64px);
+    max-width: 609px;
     margin-left: auto;
     margin-right: auto;
     background-color: var(--background-color);
@@ -29,6 +26,11 @@
     padding:  32px 24px;
     display: flex;
     flex-direction: column;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 80vh;
+    overflow-y: scroll;
 }
 
 .buy-window > * {
@@ -163,6 +165,45 @@
     gap: 14px;
 }
 
+.buy-phone {
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#user-phone {
+    border: none;
+    background-color: var(--background-color);
+    margin-left: 10px;
+}
+
+.buy-phone-number {
+    display: inline-flex;
+    align-items: center;
+}
+
+.buy-phone-number:after {
+    content: "";
+    position: relative;
+    left: 10px;
+    height: 24px;
+    border: 1.5px solid rgba(64, 64, 64, 0.30);
+}
+
+.buy-icon-flag {
+    margin-right: 8px;
+}
+
+.buy-area-number {
+    color: var(--black);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.28px;
+    white-space: nowrap;
+}
+
 .buy-icon-mastercard {
     position: absolute;
     top: 12px;
@@ -217,11 +258,14 @@
 }
 
 @media screen and (min-width: 375px) and (max-width: 480px) {
-
+.buy-window {
+    width: calc(100% - 64px);
+}
 }
 
 @media screen and (min-width: 768px) {
 .buy-window {
+    width: calc(100% - 64px);
     min-width: 609px;
     padding:  48px;
 }
@@ -306,5 +350,21 @@
 .buy-textarea {
     font-size: 18px;
     letter-spacing: -0.36px;
+}
+
+#user-phone {
+    margin-left: 25px;
+}
+
+.buy-phone-number:after {
+    left: 25px;
+}
+
+.buy-icon-flag {
+    margin-right: 18px;
+}
+
+.buy-area-number {
+    font-size: 18px;
 }
 }
