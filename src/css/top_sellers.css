@@ -44,14 +44,6 @@
         align-items: center;
         row-gap: 32px;
         justify-content: center;
-    }
-
-    .top_sellers-photo{
-        width: 344px;
-        height: 464px;
-    }
-
-    .top_sellers-card{
         position: relative;
         display: flex;
         flex-direction: column;
@@ -59,7 +51,12 @@
         padding-bottom: 20px;
     }
 
-    .top_sellers-cards{
+    .top_sellers-photo{
+        width: 344px;
+        height: 464px;
+    }
+
+    .top_sellers-list-item{
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -129,7 +126,13 @@
     .top_sellers-gallery{
         gap: 16px;
         max-width: 704px;
-        justify-content: space-between;
+        justify-content: space-between;    
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 16px;
+        padding-bottom: 20px;
+        display: flex;
+        position: relative;
     }
     
     .top_sellers-paragraph{
@@ -148,15 +151,6 @@
         align-items: flex-start;
         gap: 236px;
         margin-bottom: 100px;
-    }
-
-    .top_sellers-card {
-        flex-direction: row;
-        align-items: center;
-        gap: 16px;
-        padding-bottom: 20px;
-        display: flex;
-        position: relative;
     }
 
     .top_sellers-photo{
@@ -223,9 +217,6 @@
         flex-direction: column;
         max-width: 704px;
         justify-content: space-between;
-    }
-
-    .top_sellers-card{
         position: relative;
         display: flex;
         align-items: flex-start;
@@ -234,6 +225,7 @@
         flex-direction: row;
         gap: 16px;
     }
+
 
     .top_sellers-button,
     .top_sellers-paragraph{
@@ -244,7 +236,7 @@
         max-width: 1136px;
     }
 
-    .top_sellers-cards{
+    .top_sellers-list-item{
         width: 368px;
     }
 
