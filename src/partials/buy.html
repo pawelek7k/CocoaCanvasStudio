@@ -56,7 +56,7 @@
                     <p class="buy-area-number">+ 380</p>
                 </div>
                 <div>
-                    <input type="text" name="user-phone" placeholder="Phone number" id="user-phone" required/>
+                    <input type="tel" name="user-phone" placeholder="Phone number" id="user-phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required/>
                 </div>
             </div>
         </div>
@@ -65,7 +65,7 @@
             Card number
             </label>
             <div class="buy-form-inside">
-                <input type="text" name="user-credit" placeholder="Enter card" id="user-credit" class="buy-input" required/>
+                <input type="text" name="user-credit" placeholder="Enter card" id="user-credit" class="buy-input" pattern="^[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}$" required/>
                 <svg width="32" height="21" class="buy-icon-mastercard">
                     <use href="./images/icons.svg#icon-mastercard"></use>
                 </svg>
