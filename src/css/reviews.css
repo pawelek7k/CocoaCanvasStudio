@@ -20,6 +20,7 @@
 .reviews {
   display: flex;
   justify-content: center;
+  padding: 72px 0px;
 }
 /* @media (min-width: 375px) { */
 .revievs_container {
