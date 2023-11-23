@@ -27,15 +27,6 @@
   margin-bottom: 128px;
 }
 
-.advantages-list {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 20px;
-  margin-right: 28px;
-}
-
 .advantages-icon-container {
   display: flex;
   width: 62px;
