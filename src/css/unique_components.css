@@ -1,13 +1,12 @@
-
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .section-unique-components {
   padding: 0px 20px;
 }
-.unique-component-div{
-margin-bottom: 128px;
+.unique-component-div {
+  margin-bottom: 128px;
 }
 .unique-components-header-paragraph {
   display: flex;
@@ -21,7 +20,7 @@ margin-bottom: 128px;
   font-size: 20px;
   font-weight: 600;
   line-height: 24px;
-  letter-spacing: -0.6px;;
+  letter-spacing: -0.6px;
   text-transform: uppercase;
   width: 283px;
 }
@@ -39,7 +38,7 @@ margin-bottom: 128px;
 }
 
 .unique-component-list {
-display: flex;
+  display: flex;
 }
 .unique-components-ingridients {
   display: flex;
@@ -50,36 +49,36 @@ display: flex;
   padding-right: 32px;
 }
 .component {
-margin: 28px auto;
+  margin: 28px auto;
 }
 .first-component-name {
-color: var(--white);
-font-size: 14px;
-font-weight: 600;
-line-height: 18px;
-letter-spacing: -0.28px;
-text-transform: uppercase;
-position: absolute;
-top: 224px;
-left: 28px;
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 224px;
+  left: 28px;
 }
 .second-component-name {
-color: var(--black);
-font-size: 14px;
-font-weight: 600;
-line-height: 18px;
-letter-spacing: -0.28px;
-text-transform: uppercase;
-position: absolute;
-top: 224px;
-left: 28px;
+  color: var(--black);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 224px;
+  left: 28px;
 }
 .flip-card {
   background-color: var(--orange);
   border-radius: 15px;
   width: 335px;
   height: 270px;
-  perspective: 1000px; 
+  perspective: 1000px;
 }
 .first-flip-card-color {
   background-color: var(--white);
@@ -97,11 +96,12 @@ left: 28px;
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+.flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
-  -webkit-backface-visibility: hidden; 
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 .flip-card-front {
@@ -113,7 +113,7 @@ left: 28px;
 .first-flip-card-color-second {
   background-color: var(--white);
   border-radius: 15px;
-  border: 1px solid var(--orange)
+  border: 1px solid var(--orange);
 }
 .blue-flip-card-color-second {
   background-color: var(--grey);
@@ -168,218 +168,56 @@ left: 28px;
   padding: 6px 16px;
   font-size: 10px;
   line-height: 12px;
-  border: 1px solid var(--orange)
+  border: 1px solid var(--orange);
 }
 
 @media (min-width: 375px) and (max-width: 767px) {
-    
-    .section-unique-components {
-        padding: 0px 20px;
-    }
-    .unique-component-div{
-      margin-bottom: 128px;
-    }
-    .unique-components-header-paragraph {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 24px;
-    }
-    .unique-components-headline {
-        color: var(--black);
-        text-align: center;
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 24px;
-        letter-spacing: -0.6px;;
-        text-transform: uppercase;
-        width: 283px;
-    }
-    .unique-components-headline > .unique-components-span {
-        color: var(--orange);
-    }
-    .unique-component-chocolate-secret {
-        color: var(--black);
-        text-align: center;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 18px;
-        letter-spacing: -0.28px;
-        padding-bottom: 32px;
-    }
-
-    .unique-component-list {
-      display: flex;
-    }
-    .unique-components-ingridients {
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;
-        gap: 32px;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
-    .component {
-      margin: 28px auto;
-    }
-    .first-component-name {
-      color: var(--white);
-      font-size: 14px;
-      font-weight: 600;
-      line-height: 18px;
-      letter-spacing: -0.28px;
-      text-transform: uppercase;
-      position: absolute;
-      top: 224px;
-      left: 28px;
-    }
-    .second-component-name {
-      color: var(--black);
-      font-size: 14px;
-      font-weight: 600;
-      line-height: 18px;
-      letter-spacing: -0.28px;
-      text-transform: uppercase;
-      position: absolute;
-      top: 224px;
-      left: 28px;
-    }
-    .flip-card {
-        background-color: var(--orange);
-        border-radius: 15px;
-        width: 335px;
-        height: 270px;
-        perspective: 1000px; 
-      }
-      .first-flip-card-color {
-        background-color: var(--white);
-      }
-      .blue-flip-card-color {
-        background-color: var(--grey);
-      }
-      .flip-card-inner {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        transition: transform 0.8s;
-        transform-style: preserve-3d;
-      }
-      .flip-card:hover .flip-card-inner {
-        transform: rotateY(180deg);
-      }
-      .flip-card-front, .flip-card-back {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        -webkit-backface-visibility: hidden; 
-        backface-visibility: hidden;
-      }
-      .flip-card-front {
-        background-color: var(--orange);
-        border-radius: 15px;
-        text-align: center;
-        justify-content: center;
-      }
-      .first-flip-card-color-second {
-        background-color: var(--white);
-        border-radius: 15px;
-        border: 1px solid var(--orange)
-      }
-      .blue-flip-card-color-second {
-        background-color: var(--grey);
-      }
-      .flip-card-back {
-        background-color: var(--white);
-        border-radius: 15px;
-        color: var(--black);
-        transform: rotateY(180deg);
-      }
-      .flip-card-back {
-        padding: 20px;
-      }
-      .first-back-component-name {
-        color: var(--black);
-        font-size: 18px;
-        font-weight: 600;
-        line-height: normal;
-        letter-spacing: -0.54px;
-        text-transform: uppercase;
-        text-align: left;
-        padding-bottom: 8px;
-      }
-      .component-ingridients-story {
-        color: var(--black);
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 18px;
-        letter-spacing: -0.28px;
-        text-align: left;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        padding-top: 14px;
-      }
-      .unique-component {
-        padding-top: 20px;
-      }
-      .component-ingridients-first {
-        display: inline-block;
-        border-radius: 35px;
-        color: var(--white);
-        background-color: var(--orange);
-        padding: 6px 16px;
-        font-size: 10px;
-        line-height: 12px;
-      }
-      .component-ingridients-second {
-        display: inline-block;
-        border-radius: 35px;
-        color: var(--black);
-        background-color: var(--background-color);
-        padding: 6px 16px;
-        font-size: 10px;
-        line-height: 12px;
-        border: 1px solid var(--orange)
-      }
-    }
-  @media (min-width: 768px) and (max-width: 1199px) {
-     
-    .section-unique-components {
-      padding: 100px 20px 0px 20px;
+  .section-unique-components {
+    padding: 0px 20px;
+  }
+  .unique-component-div {
+    margin-bottom: 128px;
   }
   .unique-components-header-paragraph {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
   }
   .unique-components-headline {
-      color: var(--black);
-      text-align: center;
-      font-size: 20px;
-      font-weight: 600;
-      line-height: 24px;
-      letter-spacing: -0.6px;;
-      text-transform: uppercase;
-      width: 411px;
+    color: var(--black);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+    width: 283px;
   }
   .unique-components-headline > .unique-components-span {
-      color: var(--orange);
+    color: var(--orange);
   }
   .unique-component-chocolate-secret {
-      color: var(--black);
-      text-align: center;
-      font-size: 14px;
-      font-weight: 400;
-      line-height: 18px;
-      letter-spacing: -0.28px;
-      padding-bottom: 32px;
-      width: 486px;
+    color: var(--black);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+    padding-bottom: 32px;
   }
-  .unique-components-list {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
+
+  .unique-component-list {
+    display: flex;
+  }
+  .unique-components-ingridients {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
   .component {
     margin: 28px auto;
   }
@@ -406,264 +244,432 @@ left: 28px;
     left: 28px;
   }
   .flip-card {
-      background-color: var(--orange);
-      border-radius: 15px;
-      width: 335px;
-      height: 270px;
-      perspective: 1000px; 
-    }
-    .first-flip-card-color {
-      background-color: var(--white);
-    }
-    .blue-flip-card-color {
-      background-color: var(--grey);
-    }
-    .flip-card-inner {
-      position: relative;
-      width: 100%;
-      height: 100%;
-      transition: transform 0.8s;
-      transform-style: preserve-3d;
-    }
-    .flip-card:hover .flip-card-inner {
-      transform: rotateY(180deg);
-    }
-    .flip-card-front, .flip-card-back {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      -webkit-backface-visibility: hidden; 
-      backface-visibility: hidden;
-    }
-    .flip-card-front {
-      background-color: var(--orange);
-      border-radius: 15px;
-      text-align: center;
-      justify-content: center;
-    }
-    .first-flip-card-color-second {
-      background-color: var(--white);
-      border-radius: 15px;
-      border: 1px solid var(--orange)
-    }
-    .blue-flip-card-color-second {
-      background-color: var(--grey);
-    }
-    .flip-card-back {
-      background-color: var(--white);
-      border-radius: 15px;
-      color: var(--black);
-      transform: rotateY(180deg);
-    }
-    .flip-card-back {
-      padding: 20px;
-    }
-    .first-back-component-name {
-      color: var(--black);
-      font-size: 18px;
-      font-weight: 600;
-      line-height: normal;
-      letter-spacing: -0.54px;
-      text-transform: uppercase;
-      text-align: left;
-      padding-bottom: 8px;
-    }
-    .component-ingridients-story {
-      color: var(--black);
-      font-size: 14px;
-      font-weight: 400;
-      line-height: 18px;
-      letter-spacing: -0.28px;
-      text-align: left;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      padding-top: 14px;
-    }
-    .unique-component {
-      padding-top: 20px;
-      flex-basis: 50%;
-    }
-    .component-ingridients-first {
-      display: inline-block;
-      border-radius: 35px;
-      color: var(--white);
-      background-color: var(--orange);
-      padding: 6px 16px;
-      font-size: 10px;
-      line-height: 12px;
-    }
-    .component-ingridients-second {
-      display: inline-block;
-      border-radius: 35px;
-      color: var(--black);
-      background-color: var(--background-color);
-      padding: 6px 16px;
-      font-size: 10px;
-      line-height: 12px;
-      border: 1px solid var(--orange)
-    }
-    .unique-components-ingridients {
-      width: 704px;
-    }
+    background-color: var(--orange);
+    border-radius: 15px;
+    width: 335px;
+    height: 270px;
+    perspective: 1000px;
   }
-    @media (min-width: 1200px) {
-      .section-unique-components {
-        padding: 128px 20px;
-    }
-    .unique-components-header-paragraph {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 24px;
-    }
-    .unique-components-headline {
-        color: var(--black);
-        text-align: center;
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 24px;
-        letter-spacing: -0.6px;;
-        text-transform: uppercase;
-        width: 411px;
-    }
-    .unique-components-headline > .unique-components-span {
-        color: var(--orange);
-    }
-    .unique-component-chocolate-secret {
-        color: var(--black);
-        text-align: center;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 18px;
-        letter-spacing: -0.28px;
-        padding-bottom: 32px;
-        width: 486px;
-    }
-    .unique-components-list {
-      display: flex;
-      justify-content: space-between;
-      gap: 19px;
-    }
+  .first-flip-card-color {
+    background-color: var(--white);
+  }
+  .blue-flip-card-color {
+    background-color: var(--grey);
+  }
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .flip-card-front {
+    background-color: var(--orange);
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+  }
+  .first-flip-card-color-second {
+    background-color: var(--white);
+    border-radius: 15px;
+    border: 1px solid var(--orange);
+  }
+  .blue-flip-card-color-second {
+    background-color: var(--grey);
+  }
+  .flip-card-back {
+    background-color: var(--white);
+    border-radius: 15px;
+    color: var(--black);
+    transform: rotateY(180deg);
+  }
+  .flip-card-back {
+    padding: 20px;
+  }
+  .first-back-component-name {
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+    text-align: left;
+    padding-bottom: 8px;
+  }
+  .component-ingridients-story {
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 14px;
+  }
+  .unique-component {
+    padding-top: 20px;
+  }
+  .component-ingridients-first {
+    display: inline-block;
+    border-radius: 35px;
+    color: var(--white);
+    background-color: var(--orange);
+    padding: 6px 16px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .component-ingridients-second {
+    display: inline-block;
+    border-radius: 35px;
+    color: var(--black);
+    background-color: var(--background-color);
+    padding: 6px 16px;
+    font-size: 10px;
+    line-height: 12px;
+    border: 1px solid var(--orange);
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .section-unique-components {
+    padding: 100px 20px 0px 20px;
+  }
+  .unique-components-header-paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .unique-components-headline {
+    color: var(--black);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+    width: 411px;
+  }
+  .unique-components-headline > .unique-components-span {
+    color: var(--orange);
+  }
+  .unique-component-chocolate-secret {
+    color: var(--black);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+    padding-bottom: 32px;
+    width: 486px;
+  }
+  .unique-components-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .component {
+    margin: 28px auto;
+  }
+  .first-component-name {
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 224px;
+    left: 28px;
+  }
+  .second-component-name {
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 224px;
+    left: 28px;
+  }
+  .flip-card {
+    background-color: var(--orange);
+    border-radius: 15px;
+    width: 335px;
+    height: 270px;
+    perspective: 1000px;
+  }
+  .first-flip-card-color {
+    background-color: var(--white);
+  }
+  .blue-flip-card-color {
+    background-color: var(--grey);
+  }
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .flip-card-front {
+    background-color: var(--orange);
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+  }
+  .first-flip-card-color-second {
+    background-color: var(--white);
+    border-radius: 15px;
+    border: 1px solid var(--orange);
+  }
+  .blue-flip-card-color-second {
+    background-color: var(--grey);
+  }
+  .flip-card-back {
+    background-color: var(--white);
+    border-radius: 15px;
+    color: var(--black);
+    transform: rotateY(180deg);
+  }
+  .flip-card-back {
+    padding: 20px;
+  }
+  .first-back-component-name {
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+    text-align: left;
+    padding-bottom: 8px;
+  }
+  .component-ingridients-story {
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 14px;
+  }
+  .unique-component {
+    padding-top: 20px;
+    flex-basis: 50%;
+  }
+  .component-ingridients-first {
+    display: inline-block;
+    border-radius: 35px;
+    color: var(--white);
+    background-color: var(--orange);
+    padding: 6px 16px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .component-ingridients-second {
+    display: inline-block;
+    border-radius: 35px;
+    color: var(--black);
+    background-color: var(--background-color);
+    padding: 6px 16px;
+    font-size: 10px;
+    line-height: 12px;
+    border: 1px solid var(--orange);
+  }
+  .unique-components-ingridients {
+    width: 704px;
+  }
+}
+@media (min-width: 1200px) {
+  .section-unique-components {
+    padding: 128px 20px;
+  }
 
-    .component {
-      margin: 28px auto;
-    }
-    .first-component-name {
-      color: var(--white);
-      font-size: 14px;
-      font-weight: 600;
-      line-height: 18px;
-      letter-spacing: -0.28px;
-      text-transform: uppercase;
-      position: absolute;
-      top: 224px;
-      left: 28px;
-    }
-    .second-component-name {
-      color: var(--black);
-      font-size: 14px;
-      font-weight: 600;
-      line-height: 18px;
-      letter-spacing: -0.28px;
-      text-transform: uppercase;
-      position: absolute;
-      top: 224px;
-      left: 28px;
-    }
-    .flip-card {
-        background-color: var(--orange);
-        border-radius: 15px;
-        width: 270px;
-        height: 270px;
-        perspective: 1000px; 
-      }
-      .first-flip-card-color {
-        background-color: var(--white);
-      }
-      .blue-flip-card-color {
-        background-color: var(--grey);
-      }
-      .flip-card-inner {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        transition: transform 0.8s;
-        transform-style: preserve-3d;
-      }
-      .flip-card:hover .flip-card-inner {
-        transform: rotateY(180deg);
-      }
-      .flip-card-front, .flip-card-back {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        -webkit-backface-visibility: hidden; 
-        backface-visibility: hidden;
-      }
-      .flip-card-front {
-        background-color: var(--orange);
-        border-radius: 15px;
-        text-align: center;
-        justify-content: center;
-      }
-      .first-flip-card-color-second {
-        background-color: var(--white);
-        border-radius: 15px;
-        border: 1px solid var(--orange)
-      }
-      .blue-flip-card-color-second {
-        background-color: var(--grey);
-      }
-      .flip-card-back {
-        background-color: var(--white);
-        border-radius: 15px;
-        color: var(--black);
-        transform: rotateY(180deg);
-      }
-      .flip-card-back {
-        padding: 20px;
-      }
-      .first-back-component-name {
-        color: var(--black);
-        font-size: 18px;
-        font-weight: 600;
-        line-height: normal;
-        letter-spacing: -0.54px;
-        text-transform: uppercase;
-        text-align: left;
-        padding-bottom: 8px;
-      }
-      .component-ingridients-story {
-        color: var(--black);
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 18px;
-        letter-spacing: -0.28px;
-        text-align: left;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        padding-top: 14px;
-      }
-      .unique-component {
-        padding-top: 20px;
-      }
-      .component-ingridients-first {
-        display: inline-block;
-        border-radius: 35px;
-        color: var(--white);
-        background-color: var(--orange);
-        padding: 6px 16px;
-        font-size: 10px;
-        line-height: 12px;
-      }
-      .component-ingridients-second {
-        display: inline-block;
-        border-radius: 35px;
-        color: var(--black);
-        background-color: var(--background-color);
-        padding: 6px 16px;
-        font-size: 10px;
-        line-height: 12px;
-        border: 1px solid var(--orange)
-      }
+  .unique-component-div {
+    margin-bottom: 0px;
   }
+
+  .unique-components-header-paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .unique-components-headline {
+    color: var(--black);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+    width: 411px;
+  }
+  .unique-components-headline > .unique-components-span {
+    color: var(--orange);
+  }
+  .unique-component-chocolate-secret {
+    color: var(--black);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+    padding-bottom: 32px;
+    width: 486px;
+  }
+  .unique-components-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 19px;
+  }
+
+  .component {
+    margin: 28px auto;
+  }
+  .first-component-name {
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 224px;
+    left: 28px;
+  }
+  .second-component-name {
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 224px;
+    left: 28px;
+  }
+  .flip-card {
+    background-color: var(--orange);
+    border-radius: 15px;
+    width: 270px;
+    height: 270px;
+    perspective: 1000px;
+  }
+  .first-flip-card-color {
+    background-color: var(--white);
+  }
+  .blue-flip-card-color {
+    background-color: var(--grey);
+  }
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .flip-card-front {
+    background-color: var(--orange);
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+  }
+  .first-flip-card-color-second {
+    background-color: var(--white);
+    border-radius: 15px;
+    border: 1px solid var(--orange);
+  }
+  .blue-flip-card-color-second {
+    background-color: var(--grey);
+  }
+  .flip-card-back {
+    background-color: var(--white);
+    border-radius: 15px;
+    color: var(--black);
+    transform: rotateY(180deg);
+  }
+  .flip-card-back {
+    padding: 20px;
+  }
+  .first-back-component-name {
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+    text-align: left;
+    padding-bottom: 8px;
+  }
+  .component-ingridients-story {
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 14px;
+  }
+  .unique-component {
+    padding-top: 20px;
+  }
+  .component-ingridients-first {
+    display: inline-block;
+    border-radius: 35px;
+    color: var(--white);
+    background-color: var(--orange);
+    padding: 6px 16px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .component-ingridients-second {
+    display: inline-block;
+    border-radius: 35px;
+    color: var(--black);
+    background-color: var(--background-color);
+    padding: 6px 16px;
+    font-size: 10px;
+    line-height: 12px;
+    border: 1px solid var(--orange);
+  }
+}
