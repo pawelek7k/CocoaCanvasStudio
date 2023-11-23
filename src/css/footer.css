@@ -71,10 +71,15 @@ a {
     font-weight: 400;
     line-height: 1.286;
     letter-spacing: -0.28px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .footer-tel:hover,
-  .footer-mail:hover {
+  .footer-mail:hover,
+  .footer-tel:active,
+  .footer-mail:active {
     color: var(--orange);
   }
 
@@ -99,6 +104,14 @@ a {
   .footer-icon {
     stroke: var(--white);
     fill: var(--grey);
+    transition-property: stroke;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .footer-icon:hover,
+  .footer-icon:active {
+    stroke: var(--orange);
   }
 
   .footer-menu {
@@ -195,10 +208,22 @@ a {
     margin-bottom: 4px;
   }
 
+  .footer-tel,
+  .footer-mail {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.286;
+    letter-spacing: -0.28px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
   .footer-tel:hover,
   .footer-mail:hover,
-  .footer-tel:focus,
-  .footer-mail:focus {
+  .footer-tel:active,
+  .footer-mail:active {
     color: var(--orange);
   }
 
@@ -227,6 +252,14 @@ a {
   .footer-icon {
     stroke: var(--white);
     fill: var(--grey);
+    transition-property: stroke;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .footer-icon:hover,
+  .footer-icon:active {
+    stroke: var(--orange);
   }
 
   .footer-menu-list {
@@ -325,8 +358,22 @@ a {
     margin-bottom: 4px;
   }
 
+  .footer-tel,
+  .footer-mail {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.286;
+    letter-spacing: -0.28px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
   .footer-tel:hover,
   .footer-mail:hover,
+  .footer-tel:active,
+  .footer-mail:active,
   .footer-tel:focus,
   .footer-mail:focus {
     color: var(--orange);
@@ -357,6 +404,15 @@ a {
   .footer-icon {
     stroke: var(--white);
     fill: var(--grey);
+    transition-property: stroke;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .footer-icon:hover,
+  .footer-icon:active,
+  .footer-icon:focus {
+    stroke: var(--orange);
   }
 
   .footer-menu-list {
