@@ -541,8 +541,8 @@ left: 28px;
     }
     .unique-components-list {
       display: flex;
-      flex-wrap: wrap;
       justify-content: space-between;
+      gap: 19px;
     }
 
     .component {
