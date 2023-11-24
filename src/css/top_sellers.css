@@ -1,9 +1,118 @@
 .top_sellers-container{
     margin: 0 auto;
 }
+
+.top_sellers-container{
+    width: 335px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.top_sellers-header{
+    color: var(--orange);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; 
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+    margin-top: 72px;
+    margin-bottom: 32px;
+}
+
+.top_sellers-header-span{
+    color: var(--black);
+}
+
+.top_sellers-gallery{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top_sellers-photo{
+    width: 344px;
+    height: 464px;
+}
+
+.top_sellers-list-item{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.top_sellers-paragraph{
+    color: var(--black);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; 
+    letter-spacing: -0.28px;
+    text-align: left;
+}
+
+.top_sellers-photo{
+    border-radius: 15px;
+    width: 335px;
+    height: 464px;
+    flex-shrink: 0;
+}
+
+.top_sellers-button{
+    width: 120px;
+    height: 41px;
+    padding: 12px 28px;
+    align-items: flex-start;
+    gap: 14px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: var(--orange);
+    color: var(--white);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    margin-bottom: 72px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.top_sellers-button:hover{
+    background-color: var(--bright-orange);
+    color:var(--orange);
+}
+
+.top_sellers-third-photo{
+    display: none;
+}
+
+.top_sellers-text{
+    display: none;
+}
+
+.top_sellers-photo {
+    margin-bottom: 20px;
+}
+
+.top_sellers-paragraph {
+    margin-bottom: 20px;
+}
+
   @media (min-width: 375px) {
     .top_sellers-container{
-        max-width: 335px;
+        width: 335px;
         flex-direction: column;
         align-items: center;
         display: flex;
@@ -19,8 +128,6 @@
         line-height: 24px; 
         letter-spacing: -0.6px;
         text-transform: uppercase;
-        margin-top: 72px;
-        margin-bottom: 32px;
     }
 
     .top_sellers-header-span{
@@ -47,7 +154,6 @@
         display: flex;
         flex-direction: column;
         gap: 20px;
-        padding-bottom: 20px;
         align-items: center;
     }
     
@@ -114,17 +220,16 @@
 
   @media (min-width: 768px) and (max-width: 1199px){
     .top_sellers-container{
-        max-width: 704px;
+        width: 704px;
     }
 
     .top_sellers-gallery{
         gap: 16px;
-        max-width: 704px;
+        width: 704px;
         justify-content: space-between;    
         flex-direction: row;
         align-items: flex-start;
         gap: 16px;
-        padding-bottom: 20px;
         display: flex;
         position: relative;
     }
@@ -227,7 +332,15 @@
     }
 
     .top_sellers-header {
-        margin-bottom: 50px;
+        color: var(--orange);
+        text-align: center;
+        letter-spacing: -.6px;
+        text-transform: uppercase;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
     }
 
 
@@ -238,6 +351,7 @@
 
     .top_sellers-gallery{
         max-width: 1136px;
+        height: 464px;
     }
 
     .top_sellers-list-item{
